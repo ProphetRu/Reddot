@@ -34,3 +34,4 @@ jobs:
           cmake --build . --config Release
       - name: Test project
         run: ctest
+
