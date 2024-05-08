@@ -38,28 +38,28 @@ The project uses design patterns: `Singleton`, `Factory`, `Prototype`, `Strategy
 
 ## Demo
 Index page for guest:
-![1 index guest](images/1 index guest.jpg)
+![1 index guest](https://github.com/ProphetRu/Reddot/blob/master/images/1 index guest.jpg)
 
 Registration page:
-![2 registration](images/2 registration.jpg)
+![2 registration](https://github.com/ProphetRu/Reddot/blob/master/images/2 registration.jpg)
 
 Login page:
-![3 login](images/3 login.jpg)
+![3 login](https://github.com/ProphetRu/Reddot/blob/master/images/3 login.jpg)
 
 Index page for user:
-![4 index user](images/4 index user.jpg)
+![4 index user](https://github.com/ProphetRu/Reddot/blob/master/images/4 index user.jpg)
 
 Account page:
-![5 account](images/5 account.jpg)
+![5 account](https://github.com/ProphetRu/Reddot/blob/master/images/5 account.jpg)
 
 Post creation page:
-![6 post create](images/6 post create.jpg)
+![6 post create](https://github.com/ProphetRu/Reddot/blob/master/images/6 post create.jpg)
 
 Post view page:
-![7 post view](images/7 post view.jpg)
+![7 post view](https://github.com/ProphetRu/Reddot/blob/master/images/7 post view.jpg)
 
 Post editing page:
-![8 post edit](images/8 post edit.jpg)
+![8 post edit](https://github.com/ProphetRu/Reddot/blob/master/images/8 post edit.jpg)
 
 
 ## Creating and init MySQL
