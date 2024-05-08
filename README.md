@@ -41,25 +41,25 @@ Index page for guest:
 ![1 index guest](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/1%20index%20guest.jpg)
 
 Registration page:
-![2 registration](https://github.com/ProphetRu/Reddot/blob/master/images/2 registration.jpg)
+![2 registration](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/2%20registration.jpg)
 
 Login page:
-![3 login](https://github.com/ProphetRu/Reddot/blob/master/images/3 login.jpg)
+![3 login](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/3%20login.jpg)
 
 Index page for user:
-![4 index user](https://github.com/ProphetRu/Reddot/blob/master/images/4 index user.jpg)
+![4 index user](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/4%20index%20user.jpg)
 
 Account page:
-![5 account](https://github.com/ProphetRu/Reddot/blob/master/images/5 account.jpg)
+![5 account](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/5%20account.jpg)
 
 Post creation page:
-![6 post create](https://github.com/ProphetRu/Reddot/blob/master/images/6 post create.jpg)
+![6 post create](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/6%20post%20create.jpg)
 
 Post view page:
-![7 post view](https://github.com/ProphetRu/Reddot/blob/master/images/7 post view.jpg)
+![7 post view](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/7%20post%20view.jpg)
 
 Post editing page:
-![8 post edit](https://github.com/ProphetRu/Reddot/blob/master/images/8 post edit.jpg)
+![8 post edit](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/8%20post%20edit.jpg)
 
 
 ## Creating and init MySQL
