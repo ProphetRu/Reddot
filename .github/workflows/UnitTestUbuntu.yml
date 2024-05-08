@@ -1,9 +1,6 @@
 name: UnitTest Ubuntu
 
 on:
-  push:
-    branches:
-      - master
   workflow_dispatch:
 
 jobs:

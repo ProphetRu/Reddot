@@ -7,6 +7,7 @@
 #include "WebPageAccount.h"
 #include "WebPagePost.h"
 #include "WebPageIndex.h"
+#include "WebPageID.h"
 #include "../../DB/Post.h"
 #include <memory>
 #include <unordered_map>
