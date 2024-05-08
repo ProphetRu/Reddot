@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddot - Post</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            width: 100vw;
+			height: 100vh;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .publish-button,
+        .home-button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .publish-button {
+            background-color: #007bff;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+
+        .publish-button:hover {
+            background-color: #0056b3;
+        }
+
+        .home-button {
+            background-color: #28a745;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .home-button:hover {
+            background-color: #218838;
+        }
+		
+        .delete-button {
+            background-color: #dc3545;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+			margin-right: 10px;
+        }
+
+        .delete-button:hover {
+            background-color: #c82333;
+        }
+
+        .button-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-bottom: 10px;
+        }
+
+        .user-info {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .post-id-input {
+            width: 50px;
+            height: 30px;
+            padding: 1px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            line-height: 25px;
+			margin-top: 4px;
+			position: absolute;
+            left: 21px;
+        }
+		
+        .post-author-input {
+            width: 200px;
+            height: 30px;
+            padding: 1px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            line-height: 25px;
+			margin-top: 4px;
+			position: absolute;
+            left: 80px;
+        }
+
+        .user-login-input {
+            width: 150px;
+            height: 30px;
+            padding: 1px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .register-button {
+            background-color: #007bff;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+
+        .register-button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-button {
+            background-color: #28a745;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-button:hover {
+            background-color: #218838;
+        }
+		
+        .logout-button {
+            background-color: #dc3545;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .logout-button:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>%PLACEHOLDER_POST_TYPE%</h2>
+    <div id="post-id-text" class="post-id-input">%PLACEHOLDER_POST_ID%</div>
+	<div id="post-author-text" class="post-author-input">%PLACEHOLDER_POST_AUTHOR%</div>
+    
+    <div class="button-container">
+        %PLACEHOLDER_POST_PUBLISH%
+        %PLACEHOLDER_POST_EDIT%
+        %PLACEHOLDER_POST_DELETE%
+        <a href="index.html" class="home-button">Back to the index page</a>
+    </div>
+    
+	<input type="text" id="post-caption" placeholder="Caption" value="%PLACEHOLDER_POST_CAPTION%" required>
+	<textarea id="post-body" placeholder="Body" required>%PLACEHOLDER_POST_BODY%</textarea>
+	
+    <form id="publish-form" action="/post.html" method="post" style="display: none;">
+        <input type="hidden" name="action" value="publish">
+        <input type="hidden" name="caption">
+        <input type="hidden" name="body">
+    </form>
+    <form id="edit-form" action="/post.html" method="post" style="display: none;">
+        <input type="hidden" name="action" value="edit">
+        <input type="hidden" name="id">
+        <input type="hidden" name="author">
+        <input type="hidden" name="caption">
+        <input type="hidden" name="body">
+    </form>
+    <form id="delete-form" action="/post.html" method="post" style="display: none;">
+        <input type="hidden" name="action" value="delete">
+        <input type="hidden" name="id">
+        <input type="hidden" name="author">
+    </form>
+    
+    <div class="user-info">
+        <div class="user-login-input">%PLACEHOLDER_POST_USERNAME%</div>
+        %PLACEHOLDER_POST_REGISTRATION%
+        %PLACEHOLDER_POST_LOGIN%
+    </div>
+</div>
+
+<script>
+function submitForm(action) {
+	var id = document.getElementById('post-id-text').textContent;
+	var author = document.getElementById('post-author-text').textContent;
+    var caption = document.getElementById('post-caption').value;
+    var body = document.getElementById('post-body').value;
+    
+    var form;
+    if (action === 'publish') {
+        form = document.getElementById('publish-form');
+    } else if (action === 'edit') {
+        form = document.getElementById('edit-form');
+    } else if (action === 'delete') {
+        form = document.getElementById('delete-form');
+    }
+    
+    if (form && action === 'publish') {
+        form.elements['caption'].value = caption;
+        form.elements['body'].value = body;
+    }
+	else if (form && action === 'edit') {
+		form.elements['id'].value = id;
+		form.elements['author'].value = author;
+        form.elements['caption'].value = caption;
+        form.elements['body'].value = body;
+    }
+	else if (form && action === 'delete') {
+		form.elements['id'].value = id;
+    }
+    
+    if (form) {
+        form.submit();
+    }
+}
+</script>
+
+</body>
+</html>
