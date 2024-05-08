@@ -38,7 +38,7 @@ The project uses design patterns: `Singleton`, `Factory`, `Prototype`, `Strategy
 
 ## Demo
 Index page for guest:
-![1 index guest](https://github.com/ProphetRu/Reddot/blob/master/images/1 index guest.jpg)
+![1 index guest](https://raw.githubusercontent.com/ProphetRu/Reddot/master/images/1%20index%20guest.jpg)
 
 Registration page:
 ![2 registration](https://github.com/ProphetRu/Reddot/blob/master/images/2 registration.jpg)
