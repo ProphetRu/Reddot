@@ -1,0 +1,10 @@
+<map id="CMS::WebPages::IWebPage" name="CMS::WebPages::IWebPage">
+<area shape="rect" id="node1" title="An interface class for web pages in the CMS." alt="" coords="775,5,962,200"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1WebPageAccount.html" title="A class representing a user account web page." alt="" coords="5,248,236,399"/>
+<area shape="rect" id="node3" href="$classCMS_1_1WebPages_1_1WebPageForbidden.html" title="A class representing a web page that indicates a &quot;Forbidden&quot; error." alt="" coords="260,263,499,384"/>
+<area shape="rect" id="node4" href="$classCMS_1_1WebPages_1_1WebPageIndex.html" title="Represents a web page for displaying an index page with posts." alt="" coords="523,255,737,391"/>
+<area shape="rect" id="node5" href="$classCMS_1_1WebPages_1_1WebPageLogin.html" title="Represents a web page for user login." alt="" coords="761,255,976,391"/>
+<area shape="rect" id="node6" href="$classCMS_1_1WebPages_1_1WebPageNotFound.html" title="A class representing a web page that indicates a &quot;Not Found&quot; error." alt="" coords="1001,255,1203,391"/>
+<area shape="rect" id="node7" href="$classCMS_1_1WebPages_1_1WebPagePost.html" title="Represents a web page for displaying a single post." alt="" coords="1228,255,1437,391"/>
+<area shape="rect" id="node8" href="$classCMS_1_1WebPages_1_1WebPageRegistration.html" title="Represents a web page for user registration." alt="" coords="1462,255,1713,391"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CMS::WebPages::WebPageNotFound" name="CMS::WebPages::WebPageNotFound">
+<area shape="rect" id="node1" title="A class representing a web page that indicates a &quot;Not Found&quot; error." alt="" coords="5,248,208,384"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1IWebPage.html" title="An interface class for web pages in the CMS." alt="" coords="13,5,200,200"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Security::FilterSqlInjection" name="Security::FilterSqlInjection">
+<area shape="rect" id="node1" title="A class for filtering web content to prevent SQL injection attacks." alt="" coords="10,160,182,252"/>
+<area shape="rect" id="node2" href="$classSecurity_1_1IWebSecurityFilter.html" title="An interface class for web security filters." alt="" coords="5,5,187,112"/>
+</map>

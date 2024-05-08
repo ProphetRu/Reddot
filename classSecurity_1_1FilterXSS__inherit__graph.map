@@ -1,0 +1,4 @@
+<map id="Security::FilterXSS" name="Security::FilterXSS">
+<area shape="rect" id="node1" title="A class for filtering web content to prevent cross&#45;site scripting (XSS) attacks." alt="" coords="31,160,161,252"/>
+<area shape="rect" id="node2" href="$classSecurity_1_1IWebSecurityFilter.html" title="An interface class for web security filters." alt="" coords="5,5,187,112"/>
+</map>

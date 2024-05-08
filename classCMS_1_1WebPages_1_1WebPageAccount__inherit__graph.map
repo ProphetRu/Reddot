@@ -1,0 +1,4 @@
+<map id="CMS::WebPages::WebPageAccount" name="CMS::WebPages::WebPageAccount">
+<area shape="rect" id="node1" title="A class representing a user account web page." alt="" coords="5,248,236,399"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1IWebPage.html" title="An interface class for web pages in the CMS." alt="" coords="27,5,214,200"/>
+</map>

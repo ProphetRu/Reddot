@@ -1,0 +1,4 @@
+<map id="CMS::WebPages::WebPagePost" name="CMS::WebPages::WebPagePost">
+<area shape="rect" id="node1" title="Represents a web page for displaying a single post." alt="" coords="5,248,215,384"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1IWebPage.html" title="An interface class for web pages in the CMS." alt="" coords="17,5,203,200"/>
+</map>

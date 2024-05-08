@@ -1,0 +1,4 @@
+<map id="CMS::WebPages::WebPageLogin" name="CMS::WebPages::WebPageLogin">
+<area shape="rect" id="node1" title="Represents a web page for user login." alt="" coords="5,248,220,384"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1IWebPage.html" title="An interface class for web pages in the CMS." alt="" coords="19,5,206,200"/>
+</map>

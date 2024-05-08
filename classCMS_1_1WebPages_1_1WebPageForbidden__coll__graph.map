@@ -1,0 +1,4 @@
+<map id="CMS::WebPages::WebPageForbidden" name="CMS::WebPages::WebPageForbidden">
+<area shape="rect" id="node1" title="A class representing a web page that indicates a &quot;Forbidden&quot; error." alt="" coords="5,248,244,369"/>
+<area shape="rect" id="node2" href="$classCMS_1_1WebPages_1_1IWebPage.html" title="An interface class for web pages in the CMS." alt="" coords="31,5,218,200"/>
+</map>

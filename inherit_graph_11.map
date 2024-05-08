@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classSecurity_1_1IWebSecurityFilter.html" title="An interface class for web security filters." alt="" coords="5,132,187,159"/>
+<area shape="rect" id="node2" href="$classSecurity_1_1FilterDOM.html" title="A class for filtering web content based on a Document Object Model (DOM) filter." alt="" coords="253,5,388,32"/>
+<area shape="rect" id="node3" href="$classSecurity_1_1FilterHTTP.html" title="A class for filtering web content based on HTTP headers." alt="" coords="251,56,390,83"/>
+<area shape="rect" id="node4" href="$classSecurity_1_1FilterPaths.html" title="A class for filtering web content based on specified paths." alt="" coords="251,107,390,133"/>
+<area shape="rect" id="node5" href="$classSecurity_1_1FilterSqlInjection.html" title="A class for filtering web content to prevent SQL injection attacks." alt="" coords="235,157,407,184"/>
+<area shape="rect" id="node6" href="$classSecurity_1_1FilterXSS.html" title="A class for filtering web content to prevent cross&#45;site scripting (XSS) attacks." alt="" coords="255,208,386,235"/>
+<area shape="rect" id="node7" href="$classSecurity_1_1FilterXXE.html" title="A class for filtering web content to prevent XML External Entity (XXE) attacks." alt="" coords="255,259,386,285"/>
+</map>
