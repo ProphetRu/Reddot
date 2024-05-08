@@ -19,6 +19,7 @@ Features:
 * Writing posts;
 * Editing posts;
 * Deleting posts;
+
 Each user can view posts of other users, but can only manage their own account and their posts.
 
 The project implemented:
@@ -33,6 +34,7 @@ The project implemented:
 * CMS responsible for query parsing, business logic, and generation and delivery of content (web pages);
 * Support for user sessions;
 * Filters for web security and protection against web attacks;
+
 The project uses design patterns: `Singleton`, `Factory`, `Prototype`, `Strategy`.
 
 
